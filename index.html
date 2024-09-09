@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outfit Matcher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Outfit Matcher</h1>
+        <form id="outfitForm">
+            <label for="top">Select a Top:</label>
+            <select id="top" required>
+                <option value="">--Choose a top--</option>
+                <option value="red_shirt">Red Shirt</option>
+                <option value="blue_shirt">Blue Shirt</option>
+                <option value="green_shirt">Green Shirt</option>
+            </select>
+            
+            <label for="bottom">Suggested Bottoms:</label>
+            <select id="bottom" disabled>
+                <option value="">--Select a top first--</option>
+            </select>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
